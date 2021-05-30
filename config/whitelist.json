@@ -1,7 +1,7 @@
 {
-    "publisher" : ["/turtle\\w+/cmd_vel", 
-                   "/robot\\w+/cmd_vel.*"],
+	"turtle1": {
+		"publisher": ["cmd_vel"],
+		"subscriber": ["pose"]
+	}
 
-    "subscriber": ["/turtle\\w+/pose",  
-                   ".*move_base/result"]
 }
