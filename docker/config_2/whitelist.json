@@ -1,1 +1,7 @@
-{}
+{
+	"turtle1": {
+		"publisher": ["pose"],
+		"subscriber": ["cmd_vel"]
+	}
+
+}

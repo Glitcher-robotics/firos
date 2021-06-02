@@ -1,9 +1,19 @@
 {
     "environment": "test",
+
     "test": {
+        "node_name": "firos2",
+        "cb_type": "MyROBOT",
+        "context_type": "MyRobot",
+        "server": {
+            "port": 10101
+        },
         "contextbroker": {
             "address": "localhost",
             "port": 1026
-        }
+        },
+       
+        "log_level": "INFO",
+        "interface":"enp0s31f6"
     }
 }

@@ -3,11 +3,11 @@
         "topics":{
             "cmd_vel":{
                 "msg": "geometry_msgs.msg.Twist",
-                "type": "publisher"
+                "type": "subscriber"
             },
             "pose":{
                 "msg": "turtlesim.msg.Pose",
-                "type": "subscriber"
+                "type": "publisher"
             }
         }
     }
